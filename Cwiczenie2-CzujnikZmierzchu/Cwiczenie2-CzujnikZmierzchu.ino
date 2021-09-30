@@ -39,7 +39,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-  buttonState = digitalRead(LED_IN);
+  buttonState = digitalRead(LIGHT_IN);
   Serial.println(buttonState);
   
   if (buttonState == HIGH) {
